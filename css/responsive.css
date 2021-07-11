@@ -1,0 +1,43 @@
+@media only screen and (max-device-width: 1200px) {
+    /* Responsive Classes Here */
+  
+}
+
+@media only screen and (max-device-width: 991px) {
+    /* Responsive Classes Here */
+
+}
+
+@media only screen and (max-device-width: 768px) {
+    /* Responsive Classes Here */
+    body{
+        overflow-x: hidden;
+    }
+    .container{
+        width: 100%;
+        padding: 0px 0px;
+    }
+    .player-sec{
+        background-color: rgba(200, 127, 252, 0.479);
+        border-radius: 10px;
+        grid-template-columns: repeat(1, 1fr);
+        /* padding: 10px 10px; */
+    }
+    .top-blog, .course-sec{
+        display: none;
+    }
+}
+
+@media only screen and (max-device-width: 576px) {
+    /* Responsive Classes Here */
+
+}
+
+@media only screen and (max-device-width: 480px) {
+    /* Responsive Classes Here */
+
+}
+@media only screen and (max-device-width: 360px) {
+    /* Responsive Classes Here */
+
+}
